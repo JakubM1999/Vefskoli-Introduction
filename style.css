@@ -1,0 +1,78 @@
+/* body */
+
+body {
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
+/* Header & Nav */
+
+header {
+    background-color: #323033;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0%;
+}
+
+nav {
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 150px;
+    padding-top: 36px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15pt;
+}
+
+nav a:hover{
+    color: white;
+    font-weight: 600;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.logo {
+    color: white;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    float: left;
+    font-size: 44pt;
+    position: fixed;
+    left: 70px;;
+}
+
+.section__title {
+    font-size: 60pt;
+    float: left;
+    margin-top: 5%;
+    position:static;
+}
+
+/* Picture posisioning */
+
+.intro__img{
+    width:600px;
+    height: auto;
+    padding-top: 20%;
+    float: left;
+}

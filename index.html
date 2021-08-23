@@ -23,16 +23,19 @@
 
 <body>
 
-    <!-- header -->
+        <!-- header -->
 
     <header>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a> </li>
-                <li class="nav__item"><a href="#about" class="nav__link">About me</a> </li>
-                <li class="nav__item"><a href="#work" class="nav__link">My Work</a> </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1 class="logo"> JAKUB</h1>
+            <nav>
+                <ul class="nav__list">
+                    <li><a href="#home">Home</a> </li>
+                    <li><a href="#about">About me</a> </li>
+                    <li><a href="#work">My Work</a> </li>
+                </ul>
+            </nav>
+        </div>    
     </header>
 
       <main>
@@ -40,33 +43,70 @@
         <!-- Intro -->
 
         <section class="intro">
-            <h1 class="section__title section__title--intro">
+            <h1 class="section__title">
                 Hi I am <strong>Jakub Mierzejek</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">graphic designer</p>
+            <p class="section__subtitle">graphic designer</p>
             <img src="images/jakubpic.jpg" alt="pic of Jakub" class="intro__img">
         </section>
     
         
         <!-- About -->
 
-        <section>
-          <h2>About</h2>
-          <p>So my name is Jakub Mierzejek. I was born in Poland year 1999 in a small city named Szczytno,
-            after kindergarten me and my famly moved to England and we lived in London for a while then moved
-            to a smaller city. After that we got a opertunity in Iceland so moved there for 4 years. </p>
-        <p>We went back to Poland for 2 years and finally figured it out that Iceland is our home and we
-            wanted to stay. I was around 13 or 14 at that time. I got older finished my graphic designer degree,
-            started seeing the most beautilful and wonderful women of my life thet i have known since i was 9 years
-            old and proposed to her (Best day of my life). She moved in with me and after a year we desided that I
-            should go back to school again.
+        <section class="About">
+          <h2 class="section__title2">About</h2>
+            <div class="about-me__body">
+                <p>So my name is Jakub Mierzejek. I was born in Poland year 1999 in a small city named Szczytno,
+                    after kindergarten me and my famly moved to England and we lived in London for a while then moved
+                    to a smaller city. After that we got a opertunity in Iceland so moved there for 4 years. </p>
+                <p>We went back to Poland for 2 years and finally figured it out that Iceland is our home and we
+                    wanted to stay. I was around 13 or 14 at that time. I got older finished my graphic designer degree,
+                    started seeing the most beautilful and wonderful women of my life thet i have known since i was 9 years
+                    old and proposed to her (Best day of my life). She moved in with me and after a year we desided that I
+                    should go back to school again.
+                </p>
+            </div>
         </section>
 
         <!-- My work -->
       
         <section>
-          <h2>My work</h2>
-          <p></p>
+        <h2 class="section__title2">  My work </h2>
+          <div class="portfolio">
+
+            <!--portfolio item 01-->
+            <a href="#" class="portfolio__item">
+                <img src="images/portfolio1.jpeg" alt="spiderman" class="portfolio__img">
+            </a>
+
+            <!--portfolio item 02-->
+            <a href="#" class="portfolio__item">
+                <img src="images/portfolio2.jpeg" alt="batman" class="portfolio__img">
+            </a>
+
+            <!--portfolio item 03-->
+            <a href="#" class="portfolio__item">
+                <img src="images/portfolio3.jpeg" alt="sonic" class="portfolio__img">
+            </a>
+
+        </div>
+           
+            <!-- My work list -->
+        
+
+        <p class="section__subtitle">This is some of my work that I am very proud of. I made this in Adobe Illustrator by using drawing pad.
+            
+            <li class="work__list">Spider-man: this was my very first digital drawing and i think it went pretty good. This drawing 
+                 was made for my graduation magazine in graphic desing.</li>
+            
+            <li class="work__list">Batman: That was my second drawing witch I needed for my magazine, so I thought "who is the 
+                 second most popular superhero and it was Batman.</li>
+
+            <li class="work__list">Sonic: Now Sonic was made a little later when i ws looking for a job and I needed something more
+                 for my portfolio. I took my time with this one and it was worth it because i consider that one 
+                 the best so far.
+            </li>
+        </p>
         </section>
       
       </main>
