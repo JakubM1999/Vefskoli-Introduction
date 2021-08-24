@@ -1,9 +1,14 @@
 /* body */
 
 body {
-    margin: 0;
     font-family:'Courier New', Courier, monospace;
     font-weight: 300;
+    font-size: 16pt;;
+}
+
+main {
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 /* Header & Nav */
@@ -49,7 +54,7 @@ nav a:hover{
     margin: 0 auto;
 }
 
-
+/* Typograpghy */
 
 .logo {
     color: white;
@@ -63,16 +68,89 @@ nav a:hover{
 
 .section__title {
     font-size: 60pt;
-    float: left;
-    margin-top: 5%;
+    margin-top: 7%;
     position:static;
 }
 
-/* Picture posisioning */
+.section__subtitle{
+    font-size: 25pt;
+    margin-bottom:3%;
+}
+
+.section__title2 {
+    font-weight: bold;
+    margin-top: 15%;
+}
+
+.about-me__body{
+    margin-right: 400px;
+    margin-top: 30px;
+}
+
+.section__subtitle2 {
+    margin-top:30px;
+    margin-right: 20%;
+    text-align: center;
+ }
+
+.section__subtitle2 ul{
+     display: inline-block;
+ }
+
+.section__subtitle2 ul li{
+     text-align:left
+ }
+
+.section__title3{
+    margin-top:20%;
+    font-weight: bold;
+}
+
+li {
+    padding:10px;
+}
+
+/* Pictures */
 
 .intro__img{
     width:600px;
     height: auto;
-    padding-top: 20%;
     float: left;
+    margin-right: 50px;
+}
+
+.portfolio{
+    margin-top:3%;
+    margin-bottom: 10%;
+    float: left;
+    word-spacing: -13px;;
+}
+
+/* Footer */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #323033;
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+.footer2{
+    margin-top: 15px;
+}
+
+.footer3{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15pt;
+}
+
+.footer a:hover{
+    color: white;
+    font-weight: 600;
 }
