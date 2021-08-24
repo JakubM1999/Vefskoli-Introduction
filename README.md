@@ -1,7 +1,10 @@
 <h1>Hi</h1>
 <h2>HTMAL and CSS Introduction</h2>
 
-This is my first webpage in a while and I was trying my best. Ofcorse give me your honest feedback
-but I hope everything is ok
+<p>LINK<link https://jakubm1999.github.io/Vefskoli-Introduction/></p>
 
-<link >
+This is my first webpage in a while and I was trying my best. Ofcorse give me your honest feedback
+but I hope everything is ok. :)
+
+
+
